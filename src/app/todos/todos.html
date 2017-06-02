@@ -1,0 +1,7 @@
+<md-content>
+  <md-list>
+    <md-list-item ng-repeat="todo in $ctrl.todos">
+      <todo todo="todo" update-todo="$ctrl.updateTodo(todo)" remove-todo="$ctrl.removeTodo(todo)"></todo>
+    </md-list-item>
+  </md-list>
+</md-content>

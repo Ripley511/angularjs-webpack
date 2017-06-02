@@ -1,0 +1,10 @@
+<md-card>
+  <md-card-content>
+    <h2>{{ $ctrl.todo.title }}</h2>
+    <p>{{ $ctrl.todo.content }}</p>
+  </md-card-content>
+  <md-card-actions layout="row" layout-align="end center">
+    <md-button ng-click="$ctrl.goToDetail()">Detail</md-button>
+    <md-button ng-click="$ctrl.handleRemoveTodo()">Remove</md-button>
+  </md-card-actions>
+</md-card>

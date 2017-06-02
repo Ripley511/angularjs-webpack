@@ -1,7 +1,7 @@
 {
-  "name": "angular-webpack-workflow",
-  "version": "1.1.0",
-  "description": "A workflow for Angular made with Webpack",
+  "name": "angularjs-component-lifecycle",
+  "version": "1.0.0",
+  "description": "An exemple with AngularJS component architecture and webpack",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
@@ -11,16 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/preboot/angularjs-webpack.git"
+    "url": "https://github.com/Ripley511/angularjs-webpack.git"
   },
-  "author": "Jesus Rodriguez",
+  "author": "Pascal Vaccaro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/preboot/angularjs-webpack/issues"
+    "url": "https://github.com/Ripley511/angularjs-webpack.git"
   },
-  "homepage": "https://github.com/preboot/angularjs-webpack",
+  "homepage": "https://github.com/Ripley511/angularjs-webpack.git",
   "dependencies": {
-    "angular": "^1.5.0"
+    "angular": "^1.5.0",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-material": "^1.1.4",
+    "angular-ui-router": "^0.2.18"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
@@ -42,6 +46,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "0.0.26",
     "karma-webpack": "2.0.1",
+    "ng-annotate-loader": "^0.6.1",
     "node-libs-browser": "2.0.0",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.4",
